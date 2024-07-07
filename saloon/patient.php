@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">  
     <link rel="stylesheet" href="../css/admin.css">
         
-    <title>Patients</title>
+    <title>Customer</title>
     <style>
         .popup{
             animation: transitionIn-Y-bottom 0.5s;
@@ -89,7 +89,7 @@
                 </tr>
                 <tr class="menu-row" >
                     <td class="menu-btn menu-icon-patient menu-active menu-icon-patient-active">
-                        <a href="patient.php" class="non-style-link-menu  non-style-link-menu-active"><div><p class="menu-text">My Patients</p></a></div>
+                        <a href="patient.php" class="non-style-link-menu  non-style-link-menu-active"><div><p class="menu-text">My Customers</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -103,7 +103,7 @@
         <?php       
 
                     $selecttype="My";
-                    $current="My patients Only";
+                    $current="My customers Only";
                     if($_POST){
 
                         if(isset($_POST["search"])){
@@ -117,11 +117,11 @@
                             if($_POST["showonly"]=='all'){
                                 $sqlmain= "select * from patient";
                                 $selecttype="All";
-                                $current="All patients";
+                                $current="All customers";
                             }else{
                                 $sqlmain= "select * from appointment inner join patient on patient.pid=appointment.pid inner join schedule on schedule.scheduleid=appointment.scheduleid where schedule.docid=$userid;";
                                 $selecttype="My";
-                                $current="My patients Only";
+                                $current="My customers Only";
                             }
                         }
                     }else{
@@ -144,10 +144,10 @@
                         
                         <form action="" method="post" class="header-search">
 
-                            <input type="search" name="search12" class="input-text header-searchbar" placeholder="Search Patient name or Email" list="patient">&nbsp;&nbsp;
+                            <input type="search" name="search12" class="input-text header-searchbar" placeholder="Search customer name or Email" list="customer">&nbsp;&nbsp;
                             
                             <?php
-                                echo '<datalist id="patient">';
+                                echo '<datalist id="customer">';
                                 $list11 = $database->query($sqlmain);
                                //$list12= $database->query("select * from appointment inner join patient on patient.pid=appointment.pid inner join schedule on schedule.scheduleid=appointment.scheduleid where schedule.docid=1;");
 
@@ -208,8 +208,8 @@
                         <td width="30%">
                         <select name="showonly" id="" class="box filter-container-items" style="width:90% ;height: 37px;margin: 0;" >
                                     <option value="" disabled selected hidden><?php echo $current   ?></option><br/>
-                                    <option value="my">My Patients Only</option><br/>
-                                    <option value="all">All Patients</option><br/>
+                                    <option value="my">My Customers Only</option><br/>
+                                    <option value="all">All Customers</option><br/>
                                     
 
                         </select>
@@ -255,11 +255,11 @@
                                 <th class="table-headin">
                                     Email
                                 </th>
-                                <th class="table-headin">
+                                <!-- <th class="table-headin">
                                     
                                     Date of Birth
                                     
-                                </th>
+                                </th> -->
                                 <th class="table-headin">
                                     
                                     Events
@@ -297,7 +297,7 @@
                                     $name=$row["pname"];
                                     $email=$row["pemail"];
                                     $nic=$row["pnic"];
-                                    $dob=$row["pdob"];
+                                    // $dob=$row["pdob"];
                                     $tel=$row["ptel"];
                                     
                                     echo '<tr>
@@ -313,9 +313,9 @@
                                         <td>
                                         '.substr($email,0,20).'
                                          </td>
-                                        <td>
-                                        '.substr($dob,0,10).'
-                                        </td>
+                                        // <td>
+                                        // '.substr($dob,0,10).'
+                                        // </td>
                                         <td >
                                         <div style="display:flex;justify-content: center;">
                                         
@@ -354,7 +354,7 @@
             $name=$row["pname"];
             $email=$row["pemail"];
             $nic=$row["pnic"];
-            $dob=$row["pdob"];
+            // $dob=$row["pdob"];
             $tele=$row["ptel"];
             $address=$row["paddress"];
             echo '
@@ -439,18 +439,18 @@
                             '.$address.'<br><br>
                             </td>
                             </tr>
-                            <tr>
+                            // <tr>
                                 
-                                <td class="label-td" colspan="2">
-                                    <label for="name" class="form-label">Date of Birth: </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="label-td" colspan="2">
-                                    '.$dob.'<br><br>
-                                </td>
+                            //     <td class="label-td" colspan="2">
+                            //         <label for="name" class="form-label">Date of Birth: </label>
+                            //     </td>
+                            // </tr>
+                            // <tr>
+                            //     <td class="label-td" colspan="2">
+                            //         '.$dob.'<br><br>
+                            //     </td>
                                 
-                            </tr>
+                            // </tr>
                             <tr>
                                 <td colspan="2">
                                     <a href="patient.php"><input type="button" value="OK" class="login-btn btn-primary-soft btn" ></a>
