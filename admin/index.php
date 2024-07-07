@@ -270,7 +270,7 @@
                                                     
                                                 </th>
                                                 <th class="table-headin">
-                                                    Patient name
+                                                   Customer name
                                                 </th>
                                                 <th class="table-headin">
                                                     
