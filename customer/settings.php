@@ -87,7 +87,7 @@
                 </tr>
                 <tr class="menu-row">
                     <td class="menu-btn menu-icon-doctor">
-                        <a href="saloons.php" class="non-style-link-menu"><div><p class="menu-text">All Saloons</p></a></div>
+                        <a href="saloons.php" class="non-style-link-menu"><div><p class="menu-text">All Vendors</p></a></div>
                     </td>
                 </tr>
                 
@@ -286,7 +286,7 @@
                         <h2></h2>
                         <a class="close" href="settings.php">&times;</a>
                         <div class="content">
-                            eDoc Web App<br>
+                            Quickappoint Web App<br>
                             
                         </div>
                         <div style="display: flex;justify-content: center;">

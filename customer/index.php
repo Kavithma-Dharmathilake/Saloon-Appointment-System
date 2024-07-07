@@ -90,7 +90,7 @@
                 </tr>
                 <tr class="menu-row">
                     <td class="menu-btn menu-icon-doctor">
-                        <a href="saloons.php" class="non-style-link-menu"><div><p class="menu-text">All Saloons</p></a></div>
+                        <a href="saloons.php" class="non-style-link-menu"><div><p class="menu-text">All Vendors</p></a></div>
                     </td>
                 </tr>
                 
@@ -160,16 +160,16 @@
                         <td>
                             <h3>Welcome!</h3>
                             <h1><?php echo $username  ?>.</h1>
-                            <p>Haven't any idea about Saloons? no problem let's jumping to 
-                                <a href="saloons.php" class="non-style-link"><b>"All Saloons"</b></a> section or 
+                            <p>Haven't any idea about Vendors? no problem let's jumping to 
+                                <a href="saloons.php" class="non-style-link"><b>"All Vendors"</b></a> section or 
                                 <a href="schedule.php" class="non-style-link"><b>"Sessions"</b> </a><br>
                                 Track your past and future appointments history.<br>Also find out the expected session of your appointment.<br><br>
                             </p>
                             
-                            <h3>Book a Saloon Here</h3>
+                            <h3>Book a Vendor Here</h3>
                             <form action="schedule.php" method="post" style="display: flex">
 
-                                <input type="search" name="search" class="input-text " placeholder="Search Saloon and We will Find The Session Available" list="doctors" style="width:45%;">&nbsp;&nbsp;
+                                <input type="search" name="search" class="input-text " placeholder="Search Vendors and We will Find The Session Available" list="doctors" style="width:45%;">&nbsp;&nbsp;
                                 
                                 <?php
                                     echo '<datalist id="doctors">';
@@ -225,7 +225,7 @@
                                                                     <?php    echo $doctorrow->num_rows  ?>
                                                                 </div><br>
                                                                 <div class="h3-dashboard">
-                                                                    All Saloons &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    All Vendors &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 </div>
                                                         </div>
                                                                 <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/doctors-hover.svg');"></div>
@@ -312,7 +312,7 @@
                                                 </th>
                                                 
                                                 <th class="table-headin">
-                                                    Saloon
+                                                    Vendor
                                                 </th>
                                                 <th class="table-headin">
                                                     
@@ -339,7 +339,7 @@
                                                     
                                                     <br>
                                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">Nothing to show here!</p>
-                                                    <a class="non-style-link" href="schedule.php"><button  class="login-btn btn-primary-soft btn"  style="display: flex;justify-content: center;align-items: center;margin-left:20px;">&nbsp; Book a Saloon &nbsp;</font></button>
+                                                    <a class="non-style-link" href="schedule.php"><button  class="login-btn btn-primary-soft btn"  style="display: flex;justify-content: center;align-items: center;margin-left:20px;">&nbsp; Book a Vendor &nbsp;</font></button>
                                                     </a>
                                                     </center>
                                                     <br><br><br><br>

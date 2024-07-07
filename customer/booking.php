@@ -92,7 +92,7 @@
                 </tr>
                 <tr class="menu-row">
                     <td class="menu-btn menu-icon-doctor">
-                        <a href="saloons.php" class="non-style-link-menu"><div><p class="menu-text">All Saloons</p></a></div>
+                        <a href="saloons.php" class="non-style-link-menu"><div><p class="menu-text">All Vendors</p></a></div>
                     </td>
                 </tr>
                 
