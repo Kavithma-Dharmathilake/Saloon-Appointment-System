@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -644,7 +643,6 @@
     </div>
 
 </body>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1290,5 +1288,4 @@
     </div>
 
 </body>
->>>>>>> 3d3b61f63b49d7e0f7d2f4b694ee796279792652
 </html>
