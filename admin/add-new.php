@@ -80,7 +80,7 @@
     }
     
 
-    header("location: doctors.php?action=add&error=".$error);
+    header("location: saloons.php?action=add&error=".$error);
     ?>
     
    

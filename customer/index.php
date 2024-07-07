@@ -90,7 +90,7 @@
                 </tr>
                 <tr class="menu-row">
                     <td class="menu-btn menu-icon-doctor">
-                        <a href="doctors.php" class="non-style-link-menu"><div><p class="menu-text">All Saloons</p></a></div>
+                        <a href="saloons.php" class="non-style-link-menu"><div><p class="menu-text">All Saloons</p></a></div>
                     </td>
                 </tr>
                 
@@ -161,7 +161,7 @@
                             <h3>Welcome!</h3>
                             <h1><?php echo $username  ?>.</h1>
                             <p>Haven't any idea about Saloons? no problem let's jumping to 
-                                <a href="doctors.php" class="non-style-link"><b>"All Saloons"</b></a> section or 
+                                <a href="saloons.php" class="non-style-link"><b>"All Saloons"</b></a> section or 
                                 <a href="schedule.php" class="non-style-link"><b>"Sessions"</b> </a><br>
                                 Track your past and future appointments history.<br>Also find out the expected session of your appointment.<br><br>
                             </p>

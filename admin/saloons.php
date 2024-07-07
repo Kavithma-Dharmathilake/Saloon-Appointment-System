@@ -72,7 +72,7 @@
                 </tr>
                 <tr class="menu-row">
                     <td class="menu-btn menu-icon-doctor menu-active menu-icon-doctor-active">
-                        <a href="doctors.php" class="non-style-link-menu non-style-link-menu-active"><div><p class="menu-text">Doctors</p></a></div>
+                        <a href="saloons.php" class="non-style-link-menu non-style-link-menu-active"><div><p class="menu-text">Doctors</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -97,7 +97,7 @@
             <table border="0" width="100%" style=" border-spacing: 0;margin:0;padding:0;margin-top:25px; ">
                 <tr >
                     <td width="13%">
-                        <a href="doctors.php" ><button  class="login-btn btn-primary-soft btn btn-icon-back"  style="padding-top:11px;padding-bottom:11px;margin-left:20px;width:125px"><font class="tn-in-text">Back</font></button></a>
+                        <a href="saloons.php" ><button  class="login-btn btn-primary-soft btn btn-icon-back"  style="padding-top:11px;padding-bottom:11px;margin-left:20px;width:125px"><font class="tn-in-text">Back</font></button></a>
                     </td>
                     <td>
                         
@@ -217,7 +217,7 @@
                                     
                                     <br>
                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">We  couldnt find anything related to your keywords !</p>
-                                    <a class="non-style-link" href="doctors.php"><button  class="login-btn btn-primary-soft btn"  style="display: flex;justify-content: center;align-items: center;margin-left:20px;">&nbsp; Show all Doctors &nbsp;</font></button>
+                                    <a class="non-style-link" href="saloons.php"><button  class="login-btn btn-primary-soft btn"  style="display: flex;justify-content: center;align-items: center;margin-left:20px;">&nbsp; Show all Doctors &nbsp;</font></button>
                                     </a>
                                     </center>
                                     <br><br><br><br>
@@ -287,14 +287,14 @@
                     <div class="popup">
                     <center>
                         <h2>Are you sure?</h2>
-                        <a class="close" href="doctors.php">&times;</a>
+                        <a class="close" href="saloons.php">&times;</a>
                         <div class="content">
                             You want to delete this record<br>('.substr($nameget,0,40).').
                             
                         </div>
                         <div style="display: flex;justify-content: center;">
                         <a href="delete-doctor.php?id='.$id.'" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"<font class="tn-in-text">&nbsp;Yes&nbsp;</font></button></a>&nbsp;&nbsp;&nbsp;
-                        <a href="doctors.php" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;No&nbsp;&nbsp;</font></button></a>
+                        <a href="saloons.php" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;No&nbsp;&nbsp;</font></button></a>
 
                         </div>
                     </center>
@@ -319,7 +319,7 @@
                     <div class="popup">
                     <center>
                         <h2></h2>
-                        <a class="close" href="doctors.php">&times;</a>
+                        <a class="close" href="saloons.php">&times;</a>
                         <div class="content">
                             eDoc Web App<br>
                             
@@ -388,7 +388,7 @@
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <a href="doctors.php"><input type="button" value="OK" class="login-btn btn-primary-soft btn" ></a>
+                                    <a href="saloons.php"><input type="button" value="OK" class="login-btn btn-primary-soft btn" ></a>
                                 
                                     
                                 </td>
@@ -419,7 +419,7 @@
                     <div class="popup">
                     <center>
                     
-                        <a class="close" href="doctors.php">&times;</a> 
+                        <a class="close" href="saloons.php">&times;</a> 
                         <div style="display: flex;justify-content: center;">
                         <div class="abc">
                         <table width="80%" class="sub-table scrolldown add-doc-form-container" border="0">
@@ -550,14 +550,14 @@
                             <center>
                             <br><br><br><br>
                                 <h2>New Record Added Successfully!</h2>
-                                <a class="close" href="doctors.php">&times;</a>
+                                <a class="close" href="saloons.php">&times;</a>
                                 <div class="content">
                                     
                                     
                                 </div>
                                 <div style="display: flex;justify-content: center;">
                                 
-                                <a href="doctors.php" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;OK&nbsp;&nbsp;</font></button></a>
+                                <a href="saloons.php" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;OK&nbsp;&nbsp;</font></button></a>
 
                                 </div>
                                 <br><br>
@@ -596,7 +596,7 @@
                             <div class="popup">
                             <center>
                             
-                                <a class="close" href="doctors.php">&times;</a> 
+                                <a class="close" href="saloons.php">&times;</a> 
                                 <div style="display: flex;justify-content: center;">
                                 <div class="abc">
                                 <table width="80%" class="sub-table scrolldown add-doc-form-container" border="0">
@@ -730,14 +730,14 @@
                         <center>
                         <br><br><br><br>
                             <h2>Edit Successfully!</h2>
-                            <a class="close" href="doctors.php">&times;</a>
+                            <a class="close" href="saloons.php">&times;</a>
                             <div class="content">
                                 
                                 
                             </div>
                             <div style="display: flex;justify-content: center;">
                             
-                            <a href="doctors.php" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;OK&nbsp;&nbsp;</font></button></a>
+                            <a href="saloons.php" class="non-style-link"><button  class="btn-primary btn"  style="display: flex;justify-content: center;align-items: center;margin:10px;padding:10px;"><font class="tn-in-text">&nbsp;&nbsp;OK&nbsp;&nbsp;</font></button></a>
 
                             </div>
                             <br><br>

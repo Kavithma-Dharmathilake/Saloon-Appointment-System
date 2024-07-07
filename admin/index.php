@@ -75,7 +75,7 @@
                 </tr>
                 <tr class="menu-row">
                     <td class="menu-btn menu-icon-doctor ">
-                        <a href="doctors.php" class="non-style-link-menu "><div><p class="menu-text">Doctors</p></a></div>
+                        <a href="saloons.php" class="non-style-link-menu "><div><p class="menu-text">Doctors</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -102,7 +102,7 @@
                             
                             <td colspan="2" class="nav-bar" >
                                 
-                                <form action="doctors.php" method="post" class="header-search">
+                                <form action="saloons.php" method="post" class="header-search">
         
                                     <input type="search" name="search" class="input-text header-searchbar" placeholder="Search Doctor name or Email" list="doctors">&nbsp;&nbsp;
                                     
