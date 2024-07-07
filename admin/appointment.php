@@ -72,7 +72,7 @@
                 </tr>
                 <tr class="menu-row">
                     <td class="menu-btn menu-icon-doctor ">
-                        <a href="saloons.php" class="non-style-link-menu "><div><p class="menu-text">Doctors</p></a></div>
+                        <a href="doctors.php" class="non-style-link-menu "><div><p class="menu-text">Vendors</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -87,7 +87,7 @@
                 </tr>
                 <tr class="menu-row" >
                     <td class="menu-btn menu-icon-patient">
-                        <a href="patient.php" class="non-style-link-menu"><div><p class="menu-text">Patients</p></a></div>
+                        <a href="patient.php" class="non-style-link-menu"><div><p class="menu-text">Customers</p></a></div>
                     </td>
                 </tr>
 
@@ -161,11 +161,11 @@
 
                         </td>
                         <td width="5%" style="text-align: center;">
-                        Doctor:
+                        Vendor:
                         </td>
                         <td width="30%">
                         <select name="docid" id="" class="box filter-container-items" style="width:90% ;height: 37px;margin: 0;" >
-                            <option value="" disabled selected hidden>Choose Doctor Name from the list</option><br/>
+                            <option value="" disabled selected hidden>Choose Vendor Name from the list</option><br/>
                                 
                             <?php 
                              
@@ -246,7 +246,7 @@
                         <thead>
                         <tr>
                                 <th class="table-headin">
-                                    Patient name
+                                    Customer name
                                 </th>
                                 <th class="table-headin">
                                     
@@ -256,7 +256,7 @@
                                
                                 
                                 <th class="table-headin">
-                                    Doctor
+                                    Vendor
                                 </th>
                                 <th class="table-headin">
                                     
@@ -413,13 +413,13 @@
                             <tr>
                                 
                                 <td class="label-td" colspan="2">
-                                    <label for="docid" class="form-label">Select Doctor: </label>
+                                    <label for="docid" class="form-label">Select Vendor: </label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
                                     <select name="docid" id="" class="box" >
-                                    <option value="" disabled selected hidden>Choose Doctor Name from the list</option><br/>';
+                                    <option value="" disabled selected hidden>Choose Vendor Name from the list</option><br/>';
                                         
         
                                         $list11 = $database->query("select  * from  doctor;");
@@ -439,7 +439,7 @@
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                    <label for="nop" class="form-label">Number of Patients/Appointment Numbers : </label>
+                                    <label for="nop" class="form-label">Number of Customers/Appointment Numbers : </label>
                                 </td>
                             </tr>
                             <tr>
@@ -521,7 +521,7 @@
                         <a class="close" href="appointment.php">&times;</a>
                         <div class="content">
                             You want to delete this record<br><br>
-                            Patient Name: &nbsp;<b>'.substr($nameget,0,40).'</b><br>
+                            Customer Name: &nbsp;<b>'.substr($nameget,0,40).'</b><br>
                             Appointment number &nbsp; : <b>'.substr($apponum,0,40).'</b><br><br>
                             
                         </div>
@@ -552,9 +552,9 @@
                     <div class="popup">
                     <center>
                         <h2></h2>
-                        <a class="close" href="saloons.php">&times;</a>
+                        <a class="close" href="doctors.php">&times;</a>
                         <div class="content">
-                            Quickappoint Web App<br>
+                            eDoc Web App<br>
                             
                         </div>
                         <div style="display: flex;justify-content: center;">
@@ -621,7 +621,7 @@
                             </tr>
                             <tr>
                                 <td colspan="2">
-                                    <a href="saloons.php"><input type="button" value="OK" class="login-btn btn-primary-soft btn" ></a>
+                                    <a href="doctors.php"><input type="button" value="OK" class="login-btn btn-primary-soft btn" ></a>
                                 
                                     
                                 </td>

@@ -21,7 +21,7 @@
         $sql= $database->query("delete from webuser where email='$email';");
         $sql= $database->query("delete from doctor where docemail='$email';");
         //print_r($email);
-        header("location: saloons.php");
+        header("location: doctors.php");
     }
 
 
