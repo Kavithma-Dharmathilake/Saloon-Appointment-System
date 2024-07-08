@@ -2,8 +2,7 @@
 # Salon Appointment Booking System 
 ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(1).png)
 
-[Edoc](https://github.com/HashenUdara/edoc-doctor-appointment-system/) is a Simple web project that is made for e-channeling Using PHP,HTML & CSS.
-Quickappoint is a web application designed for managing appointments at a salon. This system facilitates easy booking for clients looking to schedule appointments for various salon services. It also aids salon staff in efficiently managing their appointment schedules.
+Quickappoint is a web application designed for managing appointments at a salon using HTML, CSS and PHP. This system facilitates easy booking for clients looking to schedule appointments for various salon services. It also aids salon staff in efficiently managing their appointment schedules.
 
 
 
