@@ -1,6 +1,7 @@
 
 # Salon Appointment Booking System 
 ![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%202024-07-08%20175205.png)
+![](https://github.com/Kavithma-Dharmathilake/Saloon-Appointment-System/blob/main/Screenshots/Screenshot%202024-07-08%20175205.png)
 
 Quickappoint is a web application designed for managing appointments at a salon using HTML, CSS and PHP. This system facilitates easy booking for clients looking to schedule appointments for various salon services. It also aids salon staff in efficiently managing their appointment schedules.
 
