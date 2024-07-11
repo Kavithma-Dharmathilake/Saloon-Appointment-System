@@ -198,11 +198,6 @@
                                 </th>
                                 <th class="table-headin">
                                     
-                                    Date of Birth
-                                    
-                                </th>
-                                <th class="table-headin">
-                                    
                                     Events
                                     
                                 </tr>

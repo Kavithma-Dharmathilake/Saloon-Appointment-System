@@ -87,7 +87,7 @@
              </tr>
              <tr class="menu-row" >
                  <td class="menu-btn menu-icon-patient">
-                     <a href="patient.php" class="non-style-link-menu"><div><p class="menu-text">My Patients</p></a></div>
+                     <a href="patient.php" class="non-style-link-menu"><div><p class="menu-text">My Customers</p></a></div>
                  </td>
              </tr>
              <tr class="menu-row" >
@@ -204,12 +204,12 @@
                                 
                                 <th class="table-headin">
                                     
-                                    Sheduled Date & Time
+                                    Scheduled Date & Time
                                     
                                 </th>
                                 <th class="table-headin">
                                     
-                                Max num that can be booked
+                                Maximum number per session
                                     
                                 </th>
                                 
@@ -367,7 +367,7 @@
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                    <label for="Email" class="form-label">Doctor of this session: </label>
+                                    <label for="Email" class="form-label">Vendor of this session: </label>
                                 </td>
                             </tr>
                             <tr>
@@ -397,7 +397,7 @@
                             </tr>
                             <tr>
                                 <td class="label-td" colspan="2">
-                                    <label for="spec" class="form-label"><b>Patients that Already registerd for this session:</b> ('.$result12->num_rows."/".$nop.')</label>
+                                    <label for="spec" class="form-label"><b>Customers that are already registerd for this session:</b> ('.$result12->num_rows."/".$nop.')</label>
                                     <br><br>
                                 </td>
                             </tr>
@@ -411,10 +411,10 @@
                                  <thead>
                                  <tr>   
                                         <th class="table-headin">
-                                             Patient ID
+                                             Customer ID
                                          </th>
                                          <th class="table-headin">
-                                             Patient name
+                                             Customer name
                                          </th>
                                          <th class="table-headin">
                                              
@@ -424,7 +424,7 @@
                                         
                                          
                                          <th class="table-headin">
-                                             Patient Telephone
+                                             Customer Telephone
                                          </th>
                                          
                                  </thead>

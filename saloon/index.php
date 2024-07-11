@@ -157,8 +157,8 @@
                         <td >
                             <h3>Welcome!</h3>
                             <h1><?php echo $username  ?>.</h1>
-                            <p>Thanks for joinnig with us. We are always trying to get you a complete service<br>
-                            You can view your dailly schedule, Reach Patients Appointment at home!<br><br>
+                            <p> Thank you for joining us! We're committed to providing you with comprehensive service.<br>
+                            View your daily schedule and even schedule customers' appointments seamlessly<br><br>
                             </p>
                             <a href="appointment.php" class="non-style-link"><button class="btn-primary btn" style="width:30%">View My Appointments</button></a>
                             <br>
@@ -196,7 +196,7 @@
                                                                     <?php    echo $doctorrow->num_rows  ?>
                                                                 </div><br>
                                                                 <div class="h3-dashboard">
-                                                                    All Doctors &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    All Vendors &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 </div>
                                                         </div>
                                                                 <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/doctors-hover.svg');"></div>
@@ -209,7 +209,7 @@
                                                                     <?php    echo $patientrow->num_rows  ?>
                                                                 </div><br>
                                                                 <div class="h3-dashboard">
-                                                                    All Patients &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                    All Customers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 </div>
                                                         </div>
                                                                 <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/patients-hover.svg');"></div>

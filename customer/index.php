@@ -160,10 +160,10 @@
                         <td>
                             <h3>Welcome!</h3>
                             <h1><?php echo $username  ?>.</h1>
-                            <p>Haven't any idea about Vendors? no problem let's jumping to 
+                            <p>Not sure which vendor to choose? No problem! Simply head over to the
                                 <a href="saloons.php" class="non-style-link"><b>"All Vendors"</b></a> section or 
                                 <a href="schedule.php" class="non-style-link"><b>"Sessions"</b> </a><br>
-                                Track your past and future appointments history.<br>Also find out the expected session of your appointment.<br><br>
+                                Keep track of your past and upcoming appointments effortlessly.<br>Plus, get insights into the expected duration of your sessions.<br><br>
                             </p>
                             
                             <h3>Book a Vendor Here</h3>
@@ -301,7 +301,7 @@
                                         <th class="table-headin">
                                                     
                                                 
-                                                    Appoint. Number
+                                                    Appointment Number
                                                     
                                                     </th>
                                                 <th class="table-headin">
@@ -316,7 +316,7 @@
                                                 </th>
                                                 <th class="table-headin">
                                                     
-                                                    Sheduled Date & Time
+                                                    Scheduled Date & Time
                                                     
                                                 </th>
                                                     

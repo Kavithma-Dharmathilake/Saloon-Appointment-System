@@ -96,8 +96,8 @@
                     </td>
                 </tr>
                 <tr class="menu-row" >
-                    <td class="menu-btn menu-icon-patient">
-                        <a href="patient.php" class="non-style-link-menu"><div><p class="menu-text">My Patients</p></a></div>
+                    <td class="menu-btn menu-icon-Customer">
+                        <a href="patient.php" class="non-style-link-menu"><div><p class="menu-text">My Customers</p></a></div>
                     </td>
                 </tr>
                 <tr class="menu-row" >
@@ -406,8 +406,8 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p style="padding: 0;margin: 0;text-align: left;font-size: 25px;font-weight: 500;">Edit Doctor Details.</p>
-                                        Doctor ID : '.$id.' (Auto Generated)<br><br>
+                                            <p style="padding: 0;margin: 0;text-align: left;font-size: 25px;font-weight: 500;">Edit Vendor Details.</p>
+                                        Vendor ID : '.$id.' (Auto Generated)<br><br>
                                         </td>
                                     </tr>
                                     <tr>
@@ -431,7 +431,7 @@
                                     </tr>
                                     <tr>
                                         <td class="label-td" colspan="2">
-                                            <input type="text" name="name" class="input-text" placeholder="Doctor Name" value="'.$name.'" required><br>
+                                            <input type="text" name="name" class="input-text" placeholder="Vendor Name" value="'.$name.'" required><br>
                                         </td>
                                         
                                     </tr>

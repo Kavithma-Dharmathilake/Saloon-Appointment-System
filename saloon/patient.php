@@ -191,7 +191,7 @@
                 
                 <tr>
                     <td colspan="4" style="padding-top:10px;">
-                        <p class="heading-main12" style="margin-left: 45px;font-size:18px;color:rgb(49, 49, 49)"><?php echo $selecttype." Patients (".$list11->num_rows.")"; ?></p>
+                        <p class="heading-main12" style="margin-left: 45px;font-size:18px;color:rgb(49, 49, 49)"><?php echo $selecttype." Customers (".$list11->num_rows.")"; ?></p>
                     </td>
                     
                 </tr>
@@ -282,7 +282,7 @@
                                     
                                     <br>
                                     <p class="heading-main12" style="margin-left: 45px;font-size:20px;color:rgb(49, 49, 49)">We  couldnt find anything related to your keywords !</p>
-                                    <a class="non-style-link" href="patient.php"><button  class="login-btn btn-primary-soft btn"  style="display: flex;justify-content: center;align-items: center;margin-left:20px;">&nbsp; Show all Patients &nbsp;</font></button>
+                                    <a class="non-style-link" href="patient.php"><button  class="login-btn btn-primary-soft btn"  style="display: flex;justify-content: center;align-items: center;margin-left:20px;">&nbsp; Show all Customers &nbsp;</font></button>
                                     </a>
                                     </center>
                                     <br><br><br><br>
@@ -376,7 +376,7 @@
                             <tr>
                                 
                                 <td class="label-td" colspan="2">
-                                    <label for="name" class="form-label">Patient ID: </label>
+                                    <label for="name" class="form-label">Customer ID: </label>
                                 </td>
                             </tr>
                             <tr>
